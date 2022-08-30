@@ -241,7 +241,7 @@ variable "tls_security_policy" {
 variable "vault_name" {
   type        = string
   description = "Vault variable that has the username/password credentials"
-  default = "pes-2-0-os-master"
+  default = "os-master"
 }
 
 variable "custom_endpoint_certificate_arn" {
