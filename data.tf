@@ -55,5 +55,5 @@ data "terraform_remote_state" "route53_zone" {
 
 
 data "vault_generic_secret" "database" {
-  path = "pdp-pes/aws/${var.stage}/opensearch/${var.vault_name}"
+  path = "aws/${var.stage}/opensearch/${var.vault_name}"
 }
